@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>beca_adultos</title>
+</head>
+<body>
+  <h1>Formulario de Apoyo para Adultos Mayores</h1>
+  <form method="POST">
+    <label>Nombre:</label><br>
+    <input type="text" name="nombre" required><br><br>
+
+    <label>Edad:</label><br>
+    <input type="number" name="edad" required><br><br>
+
+    <label>Ciudad de residencia:</label><br>
+    <input type="text" name="ciudad" required><br><br>
+
+    <label>¿Tiene pensión?</label><br>
+    <select name="pension" required>
+      <option value="si">Sí</option>
+      <option value="no">No</option>
+    </select><br><br>
+
+    <input type="submit" value="Verificar elegibilidad">
+  </form>
+
